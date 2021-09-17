@@ -41,7 +41,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 197; // 전체 사진 갯수? Maybe
 const currentFrame = index => ( // function currentFrame(index)
-  `../content/dongatest/dongatest (${ index.toString().padStart(1, '0')}).jpg`
+  `content/dongatest (${ index.toString().padStart(1, '0')}).jpg`
 ) // currentFrame은 함수인데, 인자로 숫자 앞에 0을 붙여서 4자리수로 만든다. 예) currentFrame(1) -> /0001.jpg
 
 // const preloadImages = () => {
